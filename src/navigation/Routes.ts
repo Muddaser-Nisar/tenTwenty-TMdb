@@ -13,6 +13,6 @@ export const Routes_Names = {
     Watch: 'Watch',
     Search: 'Search',
     MovieDetails: 'MovieDetails',
-    SeatMaping: 'SeatMapingScreen',
+    SeatMaping: 'SeatMaping',
   },
 };

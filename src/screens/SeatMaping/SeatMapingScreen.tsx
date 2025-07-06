@@ -5,16 +5,16 @@ import React from 'react';
 import {
   View,
   Text,
-  StyleSheet,
   TouchableOpacity,
   ScrollView,
   SafeAreaView,
   Image,
 } from 'react-native';
 import { h1M } from 'theme';
-import { colors, images, scale } from 'utils';
+import { images } from 'utils';
+import styles from './styles';
 
-const TicketBookingScreen = () => {
+const SeatMapingScreen = () => {
   const selectedDate = '5 Mar';
   const dates = ['5 Mar', '6 Mar', '7 Mar', '8 Mar', '9 Mar'];
 
@@ -91,4 +91,4 @@ const TicketBookingScreen = () => {
   );
 };
 
-export default TicketBookingScreen;
+export default SeatMapingScreen;

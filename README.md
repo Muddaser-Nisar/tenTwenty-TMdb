@@ -6,8 +6,9 @@ A beautiful React Native application built using **TypeScript** and powered by *
 
 ## 🌟 Features
 
-- 🔍 Search for movies with real-time debounced input
 - 🎞️ View upcoming movies using TMDb API
+- 🔍 Search for movies with real-time debounced input
+- 🧾 Genres Listing
 - 🧾 Detailed movie screen with genres and overview
 - ▶️ Full-screen trailer playback
 - 📁 Multi-environment configuration (Dev, QA, Production)
