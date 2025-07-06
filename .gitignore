@@ -22,6 +22,12 @@ DerivedData
 *.xcuserstate
 **/.xcode.env.local
 
+# Enviornment Files
+.env.dev
+.env.qa
+.env.prod
+
+
 # Android/IntelliJ
 #
 build/
@@ -32,6 +38,7 @@ local.properties
 *.hprof
 .cxx/
 *.keystore
+*.jks
 !debug.keystore
 .kotlin/
 

@@ -7,7 +7,19 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "android:dev": "npx react-native run-android --mode=devDebug --appId=com.apptest.dev",
+    "android:dev-release": "npx react-native run-android --mode=devRelease --appId=com.apptest.dev",
+    "devRelease": "cd android && ./gradlew assembleDevRelease",
+    "devBundleRelease": "cd android && ./gradlew bundleDevRelease",
+    "android:qa": "npx react-native run-android --mode=qaDebug --appId=com.apptest.qa",
+    "android:qa-release": "npx react-native run-android --mode=qaRelease --appId=com.apptest.qa",
+    "qaRelease": "cd android && ./gradlew assembleQaRelease",
+    "qaBundleRelease": "cd android && ./gradlew bundleQaRelease",
+    "android:prod": "npx react-native run-android --mode=prodDebug --appId=com.apptest",
+    "android:prod-release": "npx react-native run-android --mode=prodRelease --appId=com.apptest",
+    "prodRelease": "cd android && ./gradlew assembleProdRelease",
+    "prodBundleRelease": "cd android && ./gradlew bundleProdRelease"
   },
   "dependencies": {
     "@react-native/new-app-screen": "0.80.1",

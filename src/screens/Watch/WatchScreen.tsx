@@ -2,6 +2,7 @@ import React from 'react';
 import { View, Text } from 'react-native';
 import styles from './styles';
 import { navigate, Routes_Names } from 'navigation';
+import Config from 'react-native-config';
 
 const WatchScreen: React.FC = () => {
   return (
@@ -12,7 +13,7 @@ const WatchScreen: React.FC = () => {
           navigate(Routes_Names.MovieBookingScreens.Search);
         }}
       >
-        Watch screen
+        Watch screen {Config.BASE_URL}
       </Text>
     </View>
   );
