@@ -12,5 +12,6 @@ export const Routes_Names = {
   MovieBookingScreens: {
     Watch: 'Watch',
     Search: 'Search',
+    MovieDetails: 'MovieDetails',
   },
 };

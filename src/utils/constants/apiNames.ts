@@ -1,3 +1,5 @@
 export const apiName = {
-  getUpComingList: '/upcoming',
+  getUpComingList: '/movie/upcoming',
+  getCategoryList: '/genre/movie/list',
+  searchMovie: '/search/movie',
 };

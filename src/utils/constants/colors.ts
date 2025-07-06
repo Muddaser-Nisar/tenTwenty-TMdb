@@ -6,6 +6,7 @@ interface ColorInterface {
   InActiveColor?: string;
   lightRed?: string;
   tabColor?: string;
+  placeHolderColor: string;
 
   // Add more colors as needed
 }
@@ -18,4 +19,5 @@ export const colors: ColorInterface = {
   InActiveColor: '#827D88',
   lightRed: '#E26CA5',
   tabColor: '#2E2739',
+  placeHolderColor: '#202C434D',
 };

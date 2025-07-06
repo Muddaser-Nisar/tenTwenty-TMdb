@@ -1,0 +1,1 @@
+export { MovieTileCard } from './MovieTileCard';

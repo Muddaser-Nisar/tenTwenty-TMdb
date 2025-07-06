@@ -14,7 +14,7 @@ import React from 'react';
 import { Text, TextStyle } from 'react-native';
 interface TextComponentProps extends React.ComponentProps<typeof Text> {
   typographyStyle?: TextStyle; // Typography styles
-  customStyle?: TextStyle; // Custom styles
+  customStyle?: TextStyle | TextStyle[];
   children: React.ReactNode;
 }
 export const TextComponent: React.FC<TextComponentProps> = ({

@@ -16,6 +16,10 @@ const axiosInstance = axios.create({
 //  request interceptor
 axiosInstance.interceptors.request.use(
   async (config: InternalAxiosRequestConfig) => {
+    config.params = {
+      ...(config.params || {}),
+      api_key: Config.API_KEY,
+    };
     // Optionally set headers here
     return config;
   },

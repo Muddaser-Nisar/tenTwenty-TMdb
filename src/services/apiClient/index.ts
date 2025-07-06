@@ -12,8 +12,7 @@ const getHeaders = async (headers: Headers = {}): Promise<Headers> => {
   const defaultHeaders: Headers = {
     Accept: 'application/json, text/plain, */*',
     'Content-Type': 'application/json',
-    // token: `${tokens?.accessToken || ''}`,
-    token: '',
+    // token: '',
   };
   return { ...defaultHeaders, ...headers };
 };

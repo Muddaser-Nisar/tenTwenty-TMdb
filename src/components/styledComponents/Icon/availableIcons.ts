@@ -4,6 +4,11 @@ import Dashboard from 'assets/images/svg/dashBoardTab.svg';
 import Watch from 'assets/images/svg/watchTab.svg';
 import Media from 'assets/images/svg/mediaTab.svg';
 import More from 'assets/images/svg/moreTab.svg';
+import searchIcon from 'assets/images/svg/SearchIcon.svg';
+import bacKIcon from 'assets/images/svg/backIcon.svg';
+import crossIcon from 'assets/images/svg/crossIcon.svg';
+
+import menuIcon from 'assets/images/svg/menuIcon.svg';
 
 import { Routes_Names } from 'navigation';
 
@@ -15,6 +20,10 @@ export const IconLibrary: { [key: string]: React.FC<SvgProps> } = {
   [Routes_Names.MovieBookingScreens.Watch]: Watch,
   [Routes_Names.MainScreens.Media]: Media,
   [Routes_Names.MainScreens.More]: More,
+  searchIcon,
+  bacKIcon,
+  crossIcon,
+  menuIcon,
 };
 
 export const IconNames = {
@@ -23,6 +32,10 @@ export const IconNames = {
   Watch: Routes_Names.MovieBookingScreens.Watch,
   Media: Routes_Names.MainScreens.Media,
   More: Routes_Names.MainScreens.More,
+  searchIcon: 'searchIcon',
+  bacKIcon: 'bacKIcon',
+  crossIcon: 'crossIcon',
+  menuIcon: 'menuIcon',
 } as const;
 
 export type IconName = keyof typeof IconLibrary;

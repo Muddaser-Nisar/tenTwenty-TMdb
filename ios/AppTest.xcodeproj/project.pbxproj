@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		00316C3B4BED4047A7EDDCD5 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4419A2DF52B44A5B3456481 /* Poppins-ExtraBoldItalic.ttf */; };
 		09E601601EF547548AE7DD44 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43990753F1F04237896F667E /* Poppins-Light.ttf */; };
-		0C80B921A6F3F58F76C31292 /* libPods-AppTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-AppTest.a */; };
+		0C80B921A6F3F58F76C31292 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2968ED1F0E5A4B0F8727FFA6 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4F2A9B0C2C449C18DDA687D /* Poppins-ExtraLightItalic.ttf */; };
 		316A0923251C42A282748E93 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7883DB45CEA64E3AAAE49821 /* Poppins-SemiBold.ttf */; };
 		42C347CB44F4432092EC4335 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B933A111A31A420093CE2981 /* Poppins-Thin.ttf */; };
+		4A743373D7CC77DD7B762DB0 /* libPods-AppTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5FD07D7182D0154FDEE6D8 /* libPods-AppTest.a */; };
 		56F03F144E804A12AD7A24F4 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61B34EEB9B364496AC7E859E /* Poppins-Medium.ttf */; };
 		6987140CE63C42E9937B3B77 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F032430016249AAAA6AE641 /* Poppins-BoldItalic.ttf */; };
 		6BBDF67F7DA84F4196F8FDFB /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3629584A73224C45A2F5E581 /* Poppins-MediumItalic.ttf */; };
@@ -95,6 +96,7 @@
 		5F032430016249AAAA6AE641 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BoldItalic.ttf"; path = "../src/assets/fonts/Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
 		5F3A86A27D1C485684198D2E /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		61B34EEB9B364496AC7E859E /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../src/assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		6E5FD07D7182D0154FDEE6D8 /* libPods-AppTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F9586FD8EEE4D5BB533FE01 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ThinItalic.ttf"; path = "../src/assets/fonts/Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = AppTest/AppDelegate.swift; sourceTree = "<group>"; };
 		7883DB45CEA64E3AAAE49821 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../src/assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
@@ -123,7 +125,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-AppTest.a in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* BuildFile in Frameworks */,
+				4A743373D7CC77DD7B762DB0 /* libPods-AppTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +167,7 @@
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				AEB191D3D04808CE2A0B7254 /* libPods-AppTest-AppTestDev.a */,
 				CB4DE0B2D9B5101C92ED642D /* libPods-AppTest-AppTestQa.a */,
+				6E5FD07D7182D0154FDEE6D8 /* libPods-AppTest.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
