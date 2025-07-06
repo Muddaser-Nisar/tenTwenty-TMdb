@@ -7,8 +7,8 @@ import More from 'assets/images/svg/moreTab.svg';
 import searchIcon from 'assets/images/svg/SearchIcon.svg';
 import bacKIcon from 'assets/images/svg/backIcon.svg';
 import crossIcon from 'assets/images/svg/crossIcon.svg';
-
 import menuIcon from 'assets/images/svg/menuIcon.svg';
+import bIcon from 'assets/images/svg/bIcon.svg';
 
 import { Routes_Names } from 'navigation';
 
@@ -24,6 +24,7 @@ export const IconLibrary: { [key: string]: React.FC<SvgProps> } = {
   bacKIcon,
   crossIcon,
   menuIcon,
+  bIcon,
 };
 
 export const IconNames = {
@@ -36,6 +37,7 @@ export const IconNames = {
   bacKIcon: 'bacKIcon',
   crossIcon: 'crossIcon',
   menuIcon: 'menuIcon',
+  bIcon: 'bIcon',
 } as const;
 
 export type IconName = keyof typeof IconLibrary;

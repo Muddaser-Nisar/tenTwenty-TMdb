@@ -13,7 +13,7 @@ interface GenereCardProps {
   height?: number;
 }
 
-export const GenereCard: React.FC<GenereCardProps> = ({
+const GenereCardComponent: React.FC<GenereCardProps> = ({
   genere,
   height = scale(100),
 }) => {
@@ -36,3 +36,5 @@ export const GenereCard: React.FC<GenereCardProps> = ({
     </View>
   );
 };
+
+export const GenereCard = React.memo(GenereCardComponent);

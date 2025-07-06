@@ -11,10 +11,10 @@ import Config from 'react-native-config';
 interface MovieCardProps {
   movie: UpcomingMovie;
   height?: number;
-  onPress?: () => void; //<--add onPress
+  onPress?: () => void;
 }
 
-export const MovieCard: React.FC<MovieCardProps> = ({
+const MovieCardComponent: React.FC<MovieCardProps> = ({
   movie,
   height = scale(180),
   onPress,
@@ -41,3 +41,5 @@ export const MovieCard: React.FC<MovieCardProps> = ({
     </Pressable>
   );
 };
+
+export const MovieCard = React.memo(MovieCardComponent);

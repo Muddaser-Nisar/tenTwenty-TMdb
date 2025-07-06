@@ -3,26 +3,29 @@ import { colors, scale } from 'utils';
 
 //we can do type check on style as well
 const styles = StyleSheet.create({
-  card: {
-    borderRadius: scale(10),
-    overflow: 'hidden',
+  container: {
+    flexDirection: 'row',
+    paddingBottom: scale(15),
     alignItems: 'center',
-    justifyContent: 'center',
+  },
+  image: {
+    width: scale(130),
     height: scale(100),
+    borderRadius: scale(8),
+    marginRight: scale(10),
+    borderWidth: 0.5,
+    borderColor: colors.InActiveColor,
   },
-  poster: {
-    width: '100%',
-    height: '100%',
-  },
-  titleContainer: {
-    paddingVertical: scale(16),
-    paddingHorizontal: scale(17),
-    position: 'absolute',
-    bottom: 0,
-    width: '100%',
+  info: {
+    flex: 1,
   },
   title: {
-    color: colors.white,
+    color: colors.fadeBlack,
+  },
+  genre: {
+    fontSize: scale(10),
+    color: colors.placeHolderColor,
+    marginTop: scale(4),
   },
 });
 

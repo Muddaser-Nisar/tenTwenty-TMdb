@@ -7,6 +7,9 @@ interface ColorInterface {
   lightRed?: string;
   tabColor?: string;
   placeHolderColor: string;
+  goldenColor: string;
+  skyColor: string;
+  lightDark: string;
 
   // Add more colors as needed
 }
@@ -20,4 +23,7 @@ export const colors: ColorInterface = {
   lightRed: '#E26CA5',
   tabColor: '#2E2739',
   placeHolderColor: '#202C434D',
+  goldenColor: '#CD9D0F',
+  skyColor: '#61C3F2',
+  lightDark: '#564CA3',
 };

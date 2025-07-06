@@ -1,13 +1,10 @@
-// import { ImageProps } from 'react-native';
-
-// const top = require('assets/images/png/Top.png');
+import { ImageProps } from 'react-native';
+const seatMap = require('assets/images/png/seat-map.png');
 
 interface ImagePaths {
-  // profile: ImageProps;
-  // top: ImageProps;
+  seatMap: ImageProps;
 }
 export const images: ImagePaths = {
-  // profile,
-  // top,
+  seatMap,
   // ... Add other image properties with imported images
 };

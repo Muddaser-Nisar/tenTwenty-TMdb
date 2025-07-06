@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useCallback, useEffect } from 'react';
 import { FlatList, SafeAreaView, View } from 'react-native';
 import { colors } from 'utils';
 import { useAppDispatch } from 'redux/store';
@@ -22,15 +22,18 @@ const WatchScreen = () => {
   }, [dispatch]);
 
   //render item which pass the item to the component
-  const renderItem = ({ item }: { item: UpcomingMovie }) => (
-    <MovieCard
-      movie={item}
-      onPress={() =>
-        navigate(Routes_Names.MovieBookingScreens.MovieDetails, {
-          movieId: item.id,
-        })
-      }
-    />
+  const renderItem = useCallback(
+    ({ item }: { item: UpcomingMovie }) => (
+      <MovieCard
+        movie={item}
+        onPress={() =>
+          navigate(Routes_Names.MovieBookingScreens.MovieDetails, {
+            movieId: item.id,
+          })
+        }
+      />
+    ),
+    [],
   );
 
   if (loading) return <Loader />;
